@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/mural3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+nav{
+    height:80px;
+    width:100%;
+    background-color: #121111; opacity: 0.7; filter: alpha(opacity=50);
+    margin: auto;
+    /*position: fixed;*/
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+
+  color: white;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,a:hover
+{
+    background: black;
+    transition: 3s;
+}
+  img
+  {
+      width: 250px;
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+      margin-top: 20px;
+  }
+
+.menu{
+    width: 500px;
+    float: right;
+    height: 70px;
+}
+
+
+.about h1{
+    top: 150px;
+    left: 570px;
+    position: absolute;
+    text-align:center;
+    font-family: 'Times NEW Roman';
+    color: #fff;
+}
+
+.about h2
+{
+    top: 250px;
+    left: 550px;
+    position: absolute;
+    font-family: 'Times NEW Roman';
+    color: #fff;
+}
+
+.about p
+{
+    top: 300px;
+    left: 300px;
+    position: absolute;
+    text-align:center;
+    font-family: 'Times NEW Roman';
+    color: #fff;
+    font-size: 20px;
+}
+.vision h2
+{
+    top: 450px;
+    left: 650px;
+    position: absolute;
+    font-family: 'Times NEW Roman';
+    color:#fff;
+}
+
+.vision p
+{
+    top: 500px;
+    left: 300px;
+    position: absolute;
+    font-family: 'Times NEW Roman';
+    color:#fff;
+    font-size: 20px;
+}
+
+.mission h2
+{
+    top: 600px;
+    left: 650px;
+    position: absolute;
+    font-family: 'Times NEW Roman';
+    color:#fff;
+}
+
+.mission p
+{
+    top: 650px;
+    left: 300px;
+    position: absolute;
+    text-align:center;
+    font-family: 'Times NEW Roman';
+    color:#fff;
+    font-size: 20px;
+}
+
